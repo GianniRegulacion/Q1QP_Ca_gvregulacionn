@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mooli&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("images/bg.png");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* ---------------------------navigation-------------------------------- */
+
+.navbar{
+    padding: 22px;
+    text-align:right;
+    background-color: #fbd8a3;
+}
+
+.logo img{
+    float: left;
+    height: 4vh;
+    margin-left: 10vh;
+}
+
+
+
+.links{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: "Mooli" , sans-serif ;
+    font-size: large;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid black;
+    opacity: .7;
+    transition: .4s;
+}
+
+.links a:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: 25px;
+}
+.rounded{
+    border-radius: 5px;
+}
+
+.yellow{background-color: rgb(221, 147, 73); color: #fbd8a3;}
+.lightpink{background-color: indianred; color:rgb(245, 213, 212)}
+.pink{background-color:pink ; color: rgb(204, 75, 124);}
+.lightpurple{background-color: plum; color:rgb(112, 60, 112)}
+.skyblue{background-color: cadetblue; color:azure}
+
+/* ---------------------------content-------------------------------- */
+
+
+.contentindex{
+    display: flex;
+    margin: 9vw;
+    text-align: left;
+}
+.headerimg img{
+    width:auto;
+    height: 28vw;
+    border: none;
+    text-decoration: left;
+}
+.header{
+    color: #ffe8cf;
+    float: right;
+    margin-left: 5vw;
+    font-size: xx-large;
+    font-family: 'Archivo Black', serif;
+}
+
+.contentindexsb{
+    display: flex;
+    margin: 5vw;
+    text-align: left;
+}
+
+.headersb{
+    color: #ffe8cf;
+    float: right;
+    margin-left: 5vw;
+    font-size: large;
+    font-family: 'Mooli', sans-serif;
+}
+
+.contentindexmc{
+    display: flex;
+    overflow-y: auto;
+    margin: 1vw;
+    text-align: left;
+    position: relative;
+}
+
+.headermc{
+    color: #ffe8cf;
+    float: right;
+    margin-left: 2vw;
+    font-size: large;
+    font-family: 'Mooli', sans-serif;
+}
+
+.contentindexcon{
+    display: flex;
+    margin: 5vw;
+    text-align: left;
+}
+.headerimg img{
+    width:auto;
+    height: 25vw;
+    border: none;
+    text-decoration: left;
+}
+.headercon{
+    color: #ffe8cf;
+    float: right;
+    margin-left: 5vw;
+    font-size: x-large;
+    font-family: 'Archivo Black', serif;
+}
+
+.contentindexref{
+    display: flex;
+    margin: 4vw;
+    text-align: left;
+}
+
+.headerref{
+    color: #ffe8cf;
+    float: right;
+    margin-left: 5vw;
+    font-size: xx-large;
+    font-family: 'Archivo Black', serif;
+}
+
+.contentindexabtm{
+    display: flex;
+    margin: 3vw;
+    text-align: right;
+}
+.headerimgabtm img{
+    width:auto;
+    height: 25vw;
+    border: none;
+    text-decoration: left;
+}
+.headerabtm{
+    color: #ffe8cf;
+    float: right;
+    margin-left: 5vw;
+    font-size: x-large;
+    font-family: 'Archivo Black', serif;
+}
+
+/*-------------navigation in main content------------*/
+
+.sublinks{
+    display:inline;
+}
+
+.sublinks a{
+    text-decoration: none;
+    font-family: "Mooli" , sans-serif ;
+    font-size: xx-large;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 1vw;
+    border: solid black;
+    opacity: .7;
+    transition: .4s;
+}
+
+.sublinks a:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: 25px;
+}
+.rounded{
+    border-radius: 5px;
+}
+
+.quali{background-color: rgb(236, 88, 98); color: rgb(251, 182, 163);}
+.quanti{background-color: rgb(235, 161, 91); color:rgb(245, 228, 212)}
+.conclu{background-color:rgb(178, 92, 180) ; color:rgb(230, 189, 230)}
+
+/*------------------------footer--------------------------------*/
+
+
+
+.footer{
+    font-family: 'Mooli' , sans-serif;
+    color: #fff9f3;
+    font-size: small;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    padding: 0.5vw;
+    text-align: center;
+    background-color: #fbd8a3
+    
+}
+
+
+
